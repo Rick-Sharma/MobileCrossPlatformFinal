@@ -18,7 +18,7 @@ function Square() {
   ctx.fillRect(1600, 1000, -x, -y);
 }
 
-function drawBoxxy() {
+function Animation() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   ctx.beginPath();
@@ -58,4 +58,4 @@ function drawBoxxy() {
   y += incrementor;
 }
 
-setInterval(drawBoxxy, 10);
+setInterval(Animation, 10);
